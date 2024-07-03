@@ -27,7 +27,7 @@ module "opal-log-audit-db" {
 
   pgsql_databases = [
     {
-      name: local.db_name
+      name : local.db_name
     }
   ]
 
